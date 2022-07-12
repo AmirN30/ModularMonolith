@@ -1,0 +1,12 @@
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\bin\Debug\net5.0\ModularMonolith.Shared.Abstractions.deps.json
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\bin\Debug\net5.0\ModularMonolith.Shared.Abstractions.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\bin\Debug\net5.0\ModularMonolith.Shared.Abstractions.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\obj\Debug\net5.0\ModularMonolith.Shared.Abstractions.csproj.AssemblyReference.cache
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\obj\Debug\net5.0\ModularMonolith.Shared.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\obj\Debug\net5.0\ModularMonolith.Shared.Abstractions.AssemblyInfoInputs.cache
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\obj\Debug\net5.0\ModularMonolith.Shared.Abstractions.AssemblyInfo.cs
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\obj\Debug\net5.0\ModularMonolith.Shared.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\obj\Debug\net5.0\ModularMonolith.Shared.Abstractions.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\obj\Debug\net5.0\refint\ModularMonolith.Shared.Abstractions.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\obj\Debug\net5.0\ModularMonolith.Shared.Abstractions.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Abstractions\obj\Debug\net5.0\ref\ModularMonolith.Shared.Abstractions.dll

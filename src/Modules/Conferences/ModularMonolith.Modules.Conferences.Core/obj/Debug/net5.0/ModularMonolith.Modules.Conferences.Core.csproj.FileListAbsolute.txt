@@ -1,0 +1,15 @@
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\bin\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.deps.json
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\bin\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\bin\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.csproj.AssemblyReference.cache
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.AssemblyInfoInputs.cache
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.AssemblyInfo.cs
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.csproj.CoreCompileInputs.cache
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\refint\ModularMonolith.Modules.Conferences.Core.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ref\ModularMonolith.Modules.Conferences.Core.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\bin\Debug\net5.0\ModularMonolith.Shared.Abstractions.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\bin\Debug\net5.0\ModularMonolith.Shared.Abstractions.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.csproj.CopyComplete
