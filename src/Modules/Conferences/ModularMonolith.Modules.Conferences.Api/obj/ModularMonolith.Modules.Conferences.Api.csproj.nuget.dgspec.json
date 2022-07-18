@@ -61,6 +61,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -226,7 +229,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Abstractions\\ModularMonolith.Shared.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Abstractions\\ModularMonolith.Shared.Abstractions.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -238,6 +245,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

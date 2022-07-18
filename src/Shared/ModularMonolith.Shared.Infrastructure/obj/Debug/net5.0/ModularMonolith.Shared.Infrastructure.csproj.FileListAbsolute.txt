@@ -10,3 +10,6 @@ C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.In
 C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Infrastructure\obj\Debug\net5.0\refint\ModularMonolith.Shared.Infrastructure.dll
 C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Infrastructure\obj\Debug\net5.0\ModularMonolith.Shared.Infrastructure.pdb
 C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Infrastructure\obj\Debug\net5.0\ref\ModularMonolith.Shared.Infrastructure.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Infrastructure\bin\Debug\net5.0\ModularMonolith.Shared.Abstractions.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Infrastructure\bin\Debug\net5.0\ModularMonolith.Shared.Abstractions.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Shared\ModularMonolith.Shared.Infrastructure\obj\Debug\net5.0\ModularMonolith.Shared.Infrastructure.csproj.CopyComplete

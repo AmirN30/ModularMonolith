@@ -22,15 +22,8 @@ namespace ModularMonolith.Bootstrapper
         
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
             app.UseInfrastructure();
-            
             app.UseRouting();
-
             app.UseConferencesModule();
             
             app.UseEndpoints(endpoints =>
