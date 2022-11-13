@@ -47,6 +47,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -167,6 +175,9 @@
             "projectReferences": {
               "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Abstractions\\ModularMonolith.Shared.Abstractions.csproj": {
                 "projectPath": "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Abstractions\\ModularMonolith.Shared.Abstractions.csproj"
+              },
+              "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Infrastructure\\ModularMonolith.Shared.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Infrastructure\\ModularMonolith.Shared.Infrastructure.csproj"
               }
             }
           }
@@ -191,6 +202,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -246,6 +260,10 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -314,6 +332,14 @@
             "Humanizer": {
               "target": "Package",
               "version": "[2.14.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

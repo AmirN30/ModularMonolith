@@ -80,3 +80,11 @@ C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Boo
 C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\zh-CN\Humanizer.resources.dll
 C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\zh-Hans\Humanizer.resources.dll
 C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\zh-Hant\Humanizer.resources.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Npgsql.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

@@ -13,3 +13,5 @@ C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonol
 C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\bin\Debug\net5.0\ModularMonolith.Shared.Abstractions.dll
 C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\bin\Debug\net5.0\ModularMonolith.Shared.Abstractions.pdb
 C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\obj\Debug\net5.0\ModularMonolith.Modules.Conferences.Core.csproj.CopyComplete
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\bin\Debug\net5.0\ModularMonolith.Shared.Infrastructure.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Modules\Conferences\ModularMonolith.Modules.Conferences.Core\bin\Debug\net5.0\ModularMonolith.Shared.Infrastructure.pdb
