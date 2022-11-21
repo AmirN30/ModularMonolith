@@ -2276,8 +2276,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "ModularMonolith.Modules.Conferences.Core >= 1.0.0",
-      "ModularMonolith.Shared.Infrastructure >= 1.0.0"
+      "ModularMonolith.Modules.Conferences.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2314,9 +2313,6 @@
           "projectReferences": {
             "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Modules\\Conferences\\ModularMonolith.Modules.Conferences.Core\\ModularMonolith.Modules.Conferences.Core.csproj": {
               "projectPath": "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Modules\\Conferences\\ModularMonolith.Modules.Conferences.Core\\ModularMonolith.Modules.Conferences.Core.csproj"
-            },
-            "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Infrastructure\\ModularMonolith.Shared.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Infrastructure\\ModularMonolith.Shared.Infrastructure.csproj"
             }
           }
         }

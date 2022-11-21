@@ -41,9 +41,9 @@ namespace ModularMonolith.Modules.Conferences.Core.Services
         public async Task AddAsync(ConferenceDetailsDto dto)
         {
             await ValidateHostExistsAsync(dto.HostId);
+            dto.Id = Guid.NewGuid();
             var conference = new Conference();
             Map(conference, dto);
-            conference.Id = Guid.NewGuid();
             conference.HostId = dto.HostId;
             await _conferenceRepository.AddAsync(conference);
             _logger.LogInformation("Created a conference: '{Name}' with ID: '{Id}'", dto.Name, dto.Id);
@@ -66,7 +66,7 @@ namespace ModularMonolith.Modules.Conferences.Core.Services
 
         private async Task ValidateHostExistsAsync(Guid hostId)
         {
-            var host = _hostRepository.GetAsync(hostId);
+            var host = await _hostRepository.GetAsync(hostId);
             if (host is null)
             {
                 throw new HostNotFoundException(hostId);
@@ -86,11 +86,13 @@ namespace ModularMonolith.Modules.Conferences.Core.Services
         
         private static void Map(Conference conference, ConferenceDetailsDto dto)
         {
+            conference.Id = dto.Id;
             conference.Name = dto.Name;
             conference.Description = dto.Description;
             conference.Location = dto.Location;
             conference.From = dto.From;
             conference.To = dto.To;
+            conference.ParticipantsLimit = dto.ParticipantsLimit;
         }
         
         private static T Map<T>(Conference conference) where T : ConferenceDto, new()

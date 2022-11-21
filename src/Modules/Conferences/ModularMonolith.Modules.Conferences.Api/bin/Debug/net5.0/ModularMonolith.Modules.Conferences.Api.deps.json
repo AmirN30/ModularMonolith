@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "ModularMonolith.Modules.Conferences.Api/1.0.0": {
         "dependencies": {
-          "ModularMonolith.Modules.Conferences.Core": "1.0.0",
-          "ModularMonolith.Shared.Infrastructure": "1.0.0"
+          "ModularMonolith.Modules.Conferences.Core": "1.0.0"
         },
         "runtime": {
           "ModularMonolith.Modules.Conferences.Api.dll": {}

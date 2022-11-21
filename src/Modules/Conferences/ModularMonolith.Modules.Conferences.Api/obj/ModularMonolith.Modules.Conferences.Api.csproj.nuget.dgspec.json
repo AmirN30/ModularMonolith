@@ -34,9 +34,6 @@
             "projectReferences": {
               "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Modules\\Conferences\\ModularMonolith.Modules.Conferences.Core\\ModularMonolith.Modules.Conferences.Core.csproj": {
                 "projectPath": "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Modules\\Conferences\\ModularMonolith.Modules.Conferences.Core\\ModularMonolith.Modules.Conferences.Core.csproj"
-              },
-              "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Infrastructure\\ModularMonolith.Shared.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\amirb\\source\\repos\\ModularMonolith\\src\\Shared\\ModularMonolith.Shared.Infrastructure\\ModularMonolith.Shared.Infrastructure.csproj"
               }
             }
           }

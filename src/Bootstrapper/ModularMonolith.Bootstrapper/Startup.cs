@@ -1,13 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using ModularMonolith.Modules.Conferences.Api;
+using ModularMonolith.Modules.Speakers.Api;
+using ModularMonolith.Modules.Tickets.Api;
 using ModularMonolith.Shared.Infrastructure;
 
 namespace ModularMonolith.Bootstrapper
@@ -18,6 +15,8 @@ namespace ModularMonolith.Bootstrapper
         {
             services.AddInfrastructure();
             services.AddConferencesModule();
+            services.AddSpeakersModule();
+            services.AddTicketsModule();
         }
         
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -25,11 +24,13 @@ namespace ModularMonolith.Bootstrapper
             app.UseInfrastructure();
             app.UseRouting();
             app.UseConferencesModule();
+            app.UseSpeakersModule();
+            app.UseTicketsModule();
             
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapGet("/", context => context.Response.WriteAsync("Hello World!"));
+                endpoints.MapGet("/", context => context.Response.WriteAsync("Modular Monolith API"));
             });
         }
     }

@@ -88,3 +88,12 @@ C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Boo
 C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Npgsql.dll
 C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Speakers.Api.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Speakers.Core.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Speakers.Api.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Speakers.Core.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Tickets.Api.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Tickets.Core.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Tickets.Api.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Tickets.Core.pdb
