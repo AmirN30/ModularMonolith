@@ -97,3 +97,5 @@ C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Boo
 C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Tickets.Core.dll
 C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Tickets.Api.pdb
 C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\ModularMonolith.Modules.Tickets.Core.pdb
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\amirb\source\repos\ModularMonolith\src\Bootstrapper\ModularMonolith.Bootstrapper\bin\Debug\net5.0\Scrutor.dll

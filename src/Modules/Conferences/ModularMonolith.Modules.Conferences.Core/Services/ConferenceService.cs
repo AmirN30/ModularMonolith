@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using ModularMonolith.Modules.Conferences.Core.DTO;
 using ModularMonolith.Modules.Conferences.Core.Entities;
+using ModularMonolith.Modules.Conferences.Core.Events;
 using ModularMonolith.Modules.Conferences.Core.Exceptions;
 using ModularMonolith.Modules.Conferences.Core.Repositories;
+using ModularMonolith.Shared.Abstractions.Messaging;
 
 namespace ModularMonolith.Modules.Conferences.Core.Services
 {
@@ -15,15 +17,18 @@ namespace ModularMonolith.Modules.Conferences.Core.Services
         private readonly IConferenceRepository _conferenceRepository;
         private readonly IHostRepository _hostRepository;
         private readonly ILogger<ConferenceService> _logger;
+        private readonly IMessageBroker _messageBroker;
 
         public ConferenceService(
             IConferenceRepository conferenceRepository,
             IHostRepository hostRepository,
-            ILogger<ConferenceService> logger)
+            ILogger<ConferenceService> logger, 
+            IMessageBroker messageBroker)
         {
             _conferenceRepository = conferenceRepository;
             _hostRepository = hostRepository;
             _logger = logger;
+            _messageBroker = messageBroker;
         }
         
         public async Task<ConferenceDetailsDto> GetAsync(Guid id)
@@ -46,6 +51,7 @@ namespace ModularMonolith.Modules.Conferences.Core.Services
             Map(conference, dto);
             conference.HostId = dto.HostId;
             await _conferenceRepository.AddAsync(conference);
+            await _messageBroker.PublishAsync(new ConferenceCreated(conference.Id, conference.Name, conference.ParticipantsLimit));
             _logger.LogInformation("Created a conference: '{Name}' with ID: '{Id}'", dto.Name, dto.Id);
         }
 
@@ -103,7 +109,8 @@ namespace ModularMonolith.Modules.Conferences.Core.Services
                 Name = conference.Name,
                 Location = conference.Location,
                 From = conference.From,
-                To = conference.To
+                To = conference.To,
+                ParticipantsLimit = conference.ParticipantsLimit
             };
 
         private static ConferenceDetailsDto MapDetails(Conference conference)

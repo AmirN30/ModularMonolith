@@ -3,7 +3,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ModularMonolith.Shared.Infrastructure.Api;
+using ModularMonolith.Shared.Infrastructure.Events;
 using ModularMonolith.Shared.Infrastructure.Exceptions;
+using ModularMonolith.Shared.Infrastructure.Messaging;
+using ModularMonolith.Shared.Infrastructure.Modules;
 using ModularMonolith.Shared.Infrastructure.Postgres;
 
 [assembly:InternalsVisibleTo("ModularMonolith.Bootstrapper")]
@@ -22,6 +25,9 @@ namespace ModularMonolith.Shared.Infrastructure
 
             services.AddSingleton<ErrorHandlerMiddleware>();
             services.AddPostgres();
+            services.AddEvents();
+            services.AddMessagins();
+            services.AddModuleRequests();
             
             return services;
         }
